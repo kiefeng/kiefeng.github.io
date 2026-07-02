@@ -30,7 +30,7 @@ copyright:
   # Shown at the bottom of the post
   brief: 保留所有权利
 
-meta: 本站使用 %THEME% 主题 %PLATFORM%。
+meta: 本站采用 :PLATFORM 主题 :THEME
 
 not_found:
   statment: 抱歉，我们无法找到这个页面。
