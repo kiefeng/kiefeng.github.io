@@ -41,12 +41,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-plugins:
-  - jekyll-paginate
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-include-cache
 exclude:
   - README.md
   - Gemfile
