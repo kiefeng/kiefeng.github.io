@@ -8,7 +8,7 @@ baseurl: ""
 github_username: kiefeng
 
 # 主题（使用 GitHub Pages 的远程主题）
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy@v6.5.5
 
 # 语言
 lang: zh-CN
