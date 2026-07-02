@@ -1,0 +1,65 @@
+# 站点配置
+title: "Kieran 的个人主页"
+tagline: "医学 · 音乐 · 阅读 · 思考"
+description: >-
+  Kieran的个人空间。临床营养领域从业者，偶尔写写医学、音乐、阅读和思考。
+url: "https://chenk94.github.io"
+baseurl: ""
+github_username: Chenk94
+
+# 主题（使用 GitHub Pages 的远程主题）
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# 语言
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# 头像（可以替换成你自己的图片链接）
+avatar: "https://avatars.githubusercontent.com/u/0?v=4"
+
+# 社交链接
+social:
+  name: Kieran
+  email: your-email@example.com
+  links:
+    - https://github.com/Chenk94
+
+# 主题配置
+theme_mode: light  # light / dark / auto
+theme_color: blue  # blue / orange / plum
+
+# 文章默认设置
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+
+# 评论（可选，Disqus 或 Utterances）
+comments:
+  active: utterances  # GitHub Issues 评论，无需第三方
+  utterances:
+    repo: Chenk94/chenk94.github.io
+
+# 分页
+paginate: 10
+
+# 构建配置
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-include-cache
+
+# 排除文件
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

@@ -1,0 +1,13 @@
+# 联系方式和社交链接
+platforms:
+  - type: github
+    icon: "fab fa-github"
+    url: "https://github.com/Chenk94"
+
+  - type: email
+    icon: "fas fa-envelope"
+    url: "mailto:yafc18992173463@gmail.com"
+
+  - type: rss
+    icon: "fas fa-rss"
+    url: "/feed.xml"
