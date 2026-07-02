@@ -3,9 +3,9 @@ title: "Kieran 的个人主页"
 tagline: "医学 · 音乐 · 阅读 · 思考"
 description: >-
   Kieran的个人空间。临床营养领域从业者，偶尔写写医学、音乐、阅读和思考。
-url: "https://chenk94.github.io"
+url: "https://kiefeng.github.io"
 baseurl: ""
-github_username: Chenk94
+github_username: kiefeng
 
 # 主题（使用 GitHub Pages 的远程主题）
 remote_theme: cotes2020/jekyll-theme-chirpy
@@ -42,7 +42,7 @@ defaults:
 comments:
   active: utterances  # GitHub Issues 评论，无需第三方
   utterances:
-    repo: Chenk94/chenk94.github.io
+    repo: kiefeng/kiefeng.github.io
 
 # 分页
 paginate: 10

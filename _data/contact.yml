@@ -2,7 +2,7 @@
 platforms:
   - type: github
     icon: "fab fa-github"
-    url: "https://github.com/Chenk94"
+    url: "https://github.com/kiefeng"
 
   - type: email
     icon: "fas fa-envelope"
