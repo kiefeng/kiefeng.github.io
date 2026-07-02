@@ -1,9 +1,7 @@
-# 站点配置
-title: Kieran 的个人主页
-tagline: "医学 · 音乐 · 阅读 · 思考"
+# 绔欑偣閰嶇疆
+title: Kieran 鐨勪釜浜轰富椤?tagline: "鍖诲 路 闊充箰 路 闃呰 路 鎬濊€?
 description: >-
-  Kieran的个人空间。临床营养领域从业者，偶尔写写医学、音乐、阅读和思考。
-url: "https://kiefeng.github.io"
+  Kieran鐨勪釜浜虹┖闂淬€備复搴婅惀鍏婚鍩熶粠涓氳€咃紝鍋跺皵鍐欏啓鍖诲銆侀煶涔愩€侀槄璇诲拰鎬濊€冦€?url: "https://kiefeng.github.io"
 baseurl: ""
 github:
   username: kiefeng
@@ -13,44 +11,50 @@ social:
   links:
     - https://github.com/kiefeng
 
-# 主题
+# 涓婚
 theme: jekyll-theme-chirpy
 
-# 语言
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+defaults:
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+# 璇█
 lang: zh-CN
 timezone: Asia/Shanghai
 
-# 头像
+# 澶村儚
 avatar: "https://avatars.githubusercontent.com/u/102287897?v=4"
 
-# 外观
+# 澶栬
 theme_mode: light
 theme_color: blue
 
-# 评论
+# 璇勮
 comments:
   active: utterances
   utterances:
     repo: kiefeng/kiefeng.github.io
     issue_term: title
 
-# 分页
+# 鍒嗛〉
 paginate: 10
 
-# SEO
-google_site_verification:
-
-# Analytics
-google_analytics:
-  id:
-
-# 构建配置
+# 鏋勫缓閰嶇疆
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
 
-# 排除
+# 鎺掗櫎
 exclude:
   - README.md
   - Gemfile
