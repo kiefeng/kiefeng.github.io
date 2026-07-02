@@ -37,6 +37,13 @@ defaults:
       layout: post
       comments: true
       toc: true
+      permalink: /:categories/:year/:month/:day/:title/
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
 
 # 评论（可选，Disqus 或 Utterances）
 comments:
@@ -55,6 +62,12 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-include-cache
+
+# 集合（来自 Chirpy 主题）
+collections:
+  tabs:
+    output: true
+    sort_by: order
 
 # 排除文件
 exclude:
