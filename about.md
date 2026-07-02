@@ -1,6 +1,7 @@
 ---
+layout: page
+permalink: /about/
 icon: fas fa-info-circle
-order: 1
 ---
 
 # 关于我
