@@ -3,6 +3,13 @@ on:
   push:
     branches:
       - main
+<<<<<<< HEAD
+=======
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
+>>>>>>> fdda610 (Add explicit tabs collection config)
   workflow_dispatch:
 
 permissions:
@@ -22,22 +29,42 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+<<<<<<< HEAD
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v6
+=======
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v6
+
+>>>>>>> fdda610 (Add explicit tabs collection config)
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.4
           bundler-cache: true
+<<<<<<< HEAD
+=======
+
+>>>>>>> fdda610 (Add explicit tabs collection config)
       - name: Build site
         run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
+<<<<<<< HEAD
+=======
+
+>>>>>>> fdda610 (Add explicit tabs collection config)
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v5
         with:
           path: "_site${{ steps.pages.outputs.base_path }}"
+<<<<<<< HEAD
+=======
+
+>>>>>>> fdda610 (Add explicit tabs collection config)
   deploy:
     environment:
       name: github-pages

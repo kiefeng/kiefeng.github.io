@@ -1,6 +1,8 @@
-title: "Kieran"
+# 站点配置
+title: Kieran 的个人主页
 tagline: "医学 · 音乐 · 阅读 · 思考"
-description: "Kieran的个人空间。制药行业从业者，偶尔写写医学、音乐、阅读和思考。"
+description: >-
+  Kieran的个人空间。临床营养领域从业者，偶尔写写医学、音乐、阅读和思考。
 url: "https://kiefeng.github.io"
 baseurl: ""
 github:
@@ -10,50 +12,62 @@ social:
   email: yafc18992173463@gmail.com
   links:
     - https://github.com/kiefeng
+
+# 主题
 theme: jekyll-theme-chirpy
-lang: zh-CN
-timezone: Asia/Shanghai
-avatar: "https://avatars.githubusercontent.com/u/102287897?v=4"
-theme_mode: dark
-theme_color: blue
-comments:
-  active: utterances
-  utterances:
-    repo: kiefeng/kiefeng.github.io
-    issue_term: title
-paginate: 10
+
 collections:
   tabs:
     output: true
     sort_by: order
+
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: true
-      toc: true
-      permalink: /posts/:title/
   - scope:
       path: ""
       type: tabs
     values:
       layout: page
       permalink: /:title/
+
+# 语言
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# 头像
+avatar: "https://avatars.githubusercontent.com/u/102287897?v=4"
+
+# 外观
+theme_mode: light
+theme_color: blue
+
+# 评论
+comments:
+  active: utterances
+  utterances:
+    repo: kiefeng/kiefeng.github.io
+    issue_term: title
+
+# 分页
+paginate: 10
+
+# SEO
+google_site_verification:
+
+# Analytics
+google_analytics:
+  id:
+
+# 构建配置
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# 排除
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
-jekyll-archives:
-  enabled: [categories, tags]
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    tag: /tags/:name/
-    category: /categories/:name/
-
   - vendor
   - .github
