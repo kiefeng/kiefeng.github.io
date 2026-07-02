@@ -1,78 +1,60 @@
 # 站点配置
-title: "Kieran 的个人主页"
+title: Kieran 的个人主页
 tagline: "医学 · 音乐 · 阅读 · 思考"
 description: >-
   Kieran的个人空间。临床营养领域从业者，偶尔写写医学、音乐、阅读和思考。
 url: "https://kiefeng.github.io"
 baseurl: ""
-github_username: kiefeng
-
-# 主题（使用 GitHub Pages 的远程主题）
-remote_theme: cotes2020/jekyll-theme-chirpy@v6.5.5
-
-# 语言
-lang: zh-CN
-timezone: Asia/Shanghai
-
-# 头像（可以替换成你自己的图片链接）
-avatar: "https://avatars.githubusercontent.com/u/0?v=4"
-
-# 社交链接
+github:
+  username: kiefeng
 social:
   name: Kieran
   email: yafc18992173463@gmail.com
   links:
     - https://github.com/kiefeng
 
-# 主题配置
-theme_mode: light  # light / dark / auto
-theme_color: blue  # blue / orange / plum
+# 主题
+theme: jekyll-theme-chirpy
 
-# 文章默认设置
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: true
-      toc: true
-      permalink: /:categories/:year/:month/:day/:title/
-  - scope:
-      path: ""
-      type: tabs
-    values:
-      layout: page
-      permalink: /:title/
+# 语言
+lang: zh-CN
+timezone: Asia/Shanghai
 
-# 评论（可选，Disqus 或 Utterances）
+# 头像
+avatar: "https://avatars.githubusercontent.com/u/102287897?v=4"
+
+# 外观
+theme_mode: light
+theme_color: blue
+
+# 评论
 comments:
-  active: utterances  # GitHub Issues 评论，无需第三方
+  active: utterances
   utterances:
     repo: kiefeng/kiefeng.github.io
+    issue_term: title
 
 # 分页
 paginate: 10
 
+# SEO
+google_site_verification:
+
+# Analytics
+google_analytics:
+  id:
+
 # 构建配置
 plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-archives
   - jekyll-include-cache
 
-# 集合（来自 Chirpy 主题）
-collections:
-  tabs:
-    output: true
-    sort_by: order
-
-# 排除文件
+# 排除
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
   - node_modules
   - vendor
+  - .github
