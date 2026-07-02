@@ -1,0 +1,40 @@
+# ----- Commons label -----
+
+layout:
+  post: 文章
+  category: 分类
+  tag: 标签
+
+# The tabs of sidebar
+tabs:
+  home: 首页
+  categories: 分类
+  tags: 标签
+  archives: 归档
+  about: 关于
+
+# the text displayed in the search bar & search results
+search:
+  hint: 搜索
+  cancel: 取消
+  no_results: 搜索结果为空
+
+panel:
+  lastmod: 最近更新
+  trending_tags: 热门标签
+  toc: 文章内容
+
+copyright:
+  # Shown at the bottom of the post; default: '本站总访问量'
+  # count:
+  # Shown at the bottom of the post
+  brief: 保留所有权利
+
+meta: 本站使用 %THEME% 主题 %PLATFORM%。
+
+not_found:
+  statment: 抱歉，我们无法找到这个页面。
+
+notification:
+  update_found: 发现新版本内容。
+  update: 更新
