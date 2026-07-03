@@ -1,0 +1,50 @@
+/* Custom dark theme for Giscus - matching Chirpy dark mode */
+
+/* Main background */
+.giscus-frame {
+  background: transparent !important;
+}
+
+/* Sign-in button */
+.giscus-btn-sign-in,
+.giscus .btn-primary,
+button.giscus-button,
+.giscus-button {
+  background-color: #2d2d3d !important;
+  border: 1px solid #404050 !important;
+  color: #e0e0e0 !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+}
+
+.giscus-btn-sign-in:hover,
+.giscus .btn-primary:hover,
+button.giscus-button:hover {
+  background-color: #3d3d4d !important;
+  border-color: #505060 !important;
+}
+
+/* Comment box */
+.giscus .form-control,
+.giscus textarea,
+.giscus input[type="text"] {
+  background-color: #1e1e2e !important;
+  border-color: #333344 !important;
+  color: #e0e0e0 !important;
+}
+
+/* Links */
+.giscus a {
+  color: #7c9bd6 !important;
+}
+
+/* Text colors */
+.giscus {
+  color: #c0c0c0 !important;
+}
+
+/* Reactions bar */
+.giscus .reactions {
+  background-color: #1e1e2e !important;
+  border-color: #333344 !important;
+}
