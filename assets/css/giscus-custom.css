@@ -1,92 +1,10 @@
-/* Custom dark theme for Giscus - matching Chirpy dark mode */
-
-/* Make the entire widget frame borderless */
-.giscus-frame-wrapper,
-.giscus-frame {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.giscus {
-  --color-canvas-default: transparent !important;
-  --color-canvas-subtle: #1e1e2e !important;
-  --color-border-default: #2a2a3a !important;
-  --color-border-muted: #2a2a3a !important;
-  --color-neutral-muted: #2a2a3a !important;
-  --color-accent-fg: #7c9bd6 !important;
-  --color-accent-emphasis: #3d5a8a !important;
-  --color-btn-bg: #2d2d3d !important;
-  --color-btn-border: #333344 !important;
-  --color-btn-hover-bg: #3d3d4d !important;
-  --color-btn-hover-border: #404050 !important;
-  --color-btn-primary-bg: #2d2d3d !important;
-  --color-btn-primary-border: #404050 !important;
-  --color-btn-primary-hover-bg: #3d3d4d !important;
-  --color-btn-primary-hover-border: #505060 !important;
-  --color-text-primary: #c0c0c0 !important;
-  --color-text-secondary: #909090 !important;
-  --color-text-link: #7c9bd6 !important;
-  --color-bg-overlay: #1a1a2e !important;
-  --color-bg-primary: transparent !important;
-  --color-bg-secondary: #1e1e2e !important;
-  --color-sidebar-bg: transparent !important;
-  --color-timeline-bg: #2a2a3a !important;
-}
-
-/* Hide borders on the main container */
-.giscus .giscus-container {
-  border: none !important;
-}
-
-/* Timeline/thread lines - make them subtle */
-.giscus .TimelineItem {
-  border-color: #2a2a3a !important;
-}
-
-/* Comment box borders */
-.giscus .form-control,
-.giscus textarea {
-  background-color: #1e1e2e !important;
-  border-color: #333344 !important;
-  color: #c0c0c0 !important;
-}
-
-.giscus textarea:focus {
-  border-color: #505065 !important;
-  box-shadow: 0 0 0 1px #505065 !important;
-}
-
-/* Remove the outer white border entirely */
-.giscus .giscus-comment-box {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-/* Make buttons blend in */
+/* Minimal overrides for noborder_dark theme */
 .giscus-btn-sign-in,
-.giscus-button,
-button.giscus-button,
-.btn-primary {
-  background-color: var(--color-btn-primary-bg) !important;
-  border: 1px solid var(--color-btn-primary-border) !important;
-  color: #c0c0c0 !important;
-  border-radius: 6px !important;
+.giscus-button {
+  background-color: #2d2d3d !important;
+  border: 1px solid #404050 !important;
 }
-
 .giscus-btn-sign-in:hover,
-.giscus-button:hover,
-button.giscus-button:hover,
-.btn-primary:hover {
-  background-color: var(--color-btn-primary-hover-bg) !important;
-  border-color: var(--color-btn-primary-hover-border) !important;
-}
-
-/* Subtle footer */
-.giscus .giscus-footer {
-  border-color: #2a2a3a !important;
-}
-
-/* Avatar borders */
-.giscus .avatar {
-  border-color: #2a2a3a !important;
+.giscus-button:hover {
+  background-color: #3d3d4d !important;
 }
