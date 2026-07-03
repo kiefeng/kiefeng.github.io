@@ -2,12 +2,11 @@
 platforms:
   - type: github
     icon: "fab fa-github"
-    url: "https://github.com/kiefeng"
-
+    noblank: false
   - type: email
     icon: "fas fa-envelope"
-    url: "mailto:yafc18992173463@gmail.com"
-
+    noblank: false
   - type: rss
     icon: "fas fa-rss"
-    url: "/feed.xml"
+    noblank: false
+
