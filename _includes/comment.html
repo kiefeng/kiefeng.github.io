@@ -1,6 +1,23 @@
 <!-- Giscus comment system -->
 {% if site.comments.active == "giscus" and page.comments != false %}
 
+<style>
+  /* Make Giscus blend with Chirpy dark theme */
+  .giscus, .giscus-frame, .giscus-frame-wrapper {
+    width: 100% !important;
+  }
+  .giscus .giscus-button, 
+  .giscus-btn-sign-in,
+  button.giscus-button {
+    background-color: #2d2d3d !important;
+    border-color: #404050 !important;
+    color: #e0e0e0 !important;
+  }
+  button.giscus-button:hover {
+    background-color: #3d3d4d !important;
+  }
+</style>
+
 <section id="giscus-comment">
   <script src="https://giscus.app/client.js"
           data-repo="kiefeng/kiefeng.github.io"
