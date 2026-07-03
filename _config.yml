@@ -1,6 +1,6 @@
-title: "Kieran 的个人主页"
+title: "Kieran"
 tagline: "医学 · 音乐 · 阅读 · 思考"
-description: "Kieran的个人空间。临床营养领域从业者，偶尔写写医学、音乐、阅读和思考。"
+description: "Kieran的个人空间。制药行业从业者，偶尔写写医学、音乐、阅读和思考。"
 url: "https://kiefeng.github.io"
 baseurl: ""
 github:
@@ -49,7 +49,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
 exclude:
   - README.md
   - Gemfile
