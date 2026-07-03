@@ -1,12 +1,10 @@
-# 联系方式和社交链接
-platforms:
-  - type: github
-    icon: "fab fa-github"
-    noblank: false
-  - type: email
-    icon: "fas fa-envelope"
-    noblank: false
-  - type: rss
-    icon: "fas fa-rss"
-    noblank: false
-
+# 联系方式
+- type: github
+  icon: "fab fa-github"
+  noblank: false
+- type: email
+  icon: "fas fa-envelope"
+  noblank: false
+- type: rss
+  icon: "fas fa-rss"
+  noblank: false
