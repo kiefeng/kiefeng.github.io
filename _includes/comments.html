@@ -1,0 +1,29 @@
+<!-- Waline comment system -->
+{% if site.comments.active == "waline" and page.comments != false %}
+
+<div id="waline" class="waline-container"></div>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    import('https://unpkg.com/@waline/client@v3/dist/waline.js').then(({ init }) => {
+      init({
+        el: '#waline',
+        serverURL: '{{ site.comments.waline.serverURL }}',
+        lang: '{{ site.lang | default: "zh-CN" }}',
+        pageview: true,
+        reaction: true,
+        requiredFields: ['nick'],
+        emoji: [
+          'https://unpkg.com/@waline/emojis@v1/weibo',
+          'https://unpkg.com/@waline/emojis@v1/qq'
+        ],
+        dark: 'html[data-bs-theme="dark"]',
+      });
+    });
+  });
+</script>
+
+<noscript>请启用 JavaScript 来查看评论。</noscript>
+
+{% endif %}
