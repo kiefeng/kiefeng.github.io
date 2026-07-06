@@ -19,6 +19,9 @@ theme_color: blue
 comments:
   active: giscus
 paginate: 10
+pageviews:
+  provider: goatcounter
+
 analytics:
   goatcounter:
     id: kiefeng
